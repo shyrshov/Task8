@@ -1,4 +1,4 @@
-package Fourth;
+package FourthTask;
 
 public class Fix {
 
