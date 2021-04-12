@@ -6,13 +6,13 @@ public class Main {
         System.out.println(divideByZero());
     }
 
-    public static int divideByZero() throws ArithmeticException{
+    public static int divideByZero() {
         try {
         int a = 5;
         int b = 0;
         return a / b;
         } catch (ArithmeticException e) {
-            throw e;
+            return 0;
         }
     }
 }
